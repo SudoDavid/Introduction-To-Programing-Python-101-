@@ -11,11 +11,11 @@ def Average(movie_rating):
 
 x = 0
 user_input = True
+movie_rating = [x]
 while(user_input == True):
 #accept user input for movie rating
     movie_list = 'Titan A.E.'
     print("What would you rate the following movie?", movie_list)
-    movie_rating = [x]
     #ask for next rating
     y = int(input("Please enter a movie rating between 0 and 4. \n"))
     #add next rating to the list
